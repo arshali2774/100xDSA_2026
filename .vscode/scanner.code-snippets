@@ -19,10 +19,6 @@
     "prefix": "scanint",
     "body": [
       "Scanner sc = new Scanner(System.in);",
-      "if (!sc.hasNextInt()) {",
-      "    sc.close();",
-      "    return;",
-      "}",
       "${1:// cursor here}",
       "sc.close();",
     ],

@@ -1,0 +1,17 @@
+{
+  "Scanner Array Template": {
+    "scope": "java",
+    "prefix": "scanarr",
+    "body": [
+      "Scanner sc = new Scanner(System.in);",
+      "int n = sc.nextInt();",
+      "long[] arr = new long[n];",
+      "for (int i = 0; i < n; i++) {",
+      "    arr[i] = sc.nextLong();",
+      "}",
+      "$0",
+      "sc.close();",
+    ],
+    "description": "Scanner template for reading n and long array",
+  },
+}
